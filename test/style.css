@@ -1,0 +1,9 @@
+:root {
+	--text-color: black;
+	--test-component--text-color: blue;
+}
+
+.alt {
+	--text-color: green;
+	--test-component--text-color: red;
+}

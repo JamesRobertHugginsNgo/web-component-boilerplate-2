@@ -1,0 +1,10 @@
+<template>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/JamesRobertHugginsNgo/bootstrap@main/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{DEST}}/style{{INFIX}}.css">
+
+	<div class="container">
+		<p><img src="{{DEST}}/assets/logo.svg" alt=""></p>
+
+		<p><span id="greeting">Hello</span> <slot>World</slot></p>
+	</div>
+</template>

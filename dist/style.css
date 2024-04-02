@@ -1,0 +1,9 @@
+:host {
+	--component--text-color: var(--test-component--text-color, var(--text-color, salmon));
+
+	display: block;
+}
+
+p {
+	color: var(--component--text-color);
+}
